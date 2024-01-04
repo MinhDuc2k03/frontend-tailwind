@@ -89,10 +89,6 @@ header {
     display: flex;
 }
 
-.btn-notif {
-    display: none;
-}
-
 .icon-user {
     height: 24px;
     margin-bottom: 80%;
@@ -170,4 +166,45 @@ header {
 .caption-img-bottom {
     display: block;
     width: 340px;
+}
+
+.main-container {
+    margin: 0 17.5%;
+    height: 390px;
+    background-color: blueviolet;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .btn-post {
+        display: none;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .main-slider {
+        height: 257px;
+    }
+    
+    .slider-caption {
+        display: none;
+    }
+
+    .main-container {
+        margin: 0;
+    }
+
+@media (min-width: 1025px) {
+    .btn-notif {
+        display: none;
+    }
+
 }
