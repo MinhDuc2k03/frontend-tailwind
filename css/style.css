@@ -1,17 +1,16 @@
 ﻿* {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     margin: 0;
 }
 
 button {
     text-align: center;
+    background-color: transparent;
+    border-style: none;
 }
 
-
-
-
-
 header {
+    z-index: 1;
     height: 75px;
     background-color: rgba(255, 255, 255, 0.7);
     display: flex;
@@ -48,10 +47,16 @@ header {
 .menu-item {
     margin-right: 40px;
     opacity: 50%;
+    transition: .2s;
 }
+
+    .menu-item:hover {
+        opacity: 100%;
+    }
 
 .item-link {
     text-decoration: none;
+    font-weight: 600;
     letter-spacing: 0.0125em;
     font-size: 14px;
     line-height: 17px;
@@ -60,18 +65,13 @@ header {
 
 .item-link-active {
     text-decoration: none;
+    font-weight: 600;
     letter-spacing: 0.0125em;
     font-size: 14px;
     line-height: 17px;
     color: #3B4144;
     padding-bottom: 5px;
     border-bottom: 2px solid red;
-}
-
-
-.btn-logo {
-    background-color: transparent;
-    border-style: none;
 }
 
 .header-logo {
@@ -89,19 +89,28 @@ header {
     display: flex;
 }
 
+.btn-notif {
+    display: none;
+}
+
+.icon-user {
+    height: 24px;
+    margin-bottom: 80%;
+}
+
 .btn-post {
     background-color: red;
     font-size: 14px;
+    font-weight: 600;
     color: white;
     width: 131px;
     height: 32px;
     border-style: none;
+    margin-left: 20px;
     border-radius: 30px
 }
 
 .btn-user {
-    background-color: transparent;
-    border-style: none;
     margin-left: 24px;
     display: flex;
 }
@@ -112,6 +121,7 @@ header {
 
 .info-name {
     text-align: right;
+    font-weight: 600;
 }
 
 .info-class {
@@ -126,8 +136,38 @@ header {
 
 
 .main {
+    padding-top: 130px;
     background-color: burlywood;
     margin: 0 auto;
     width: 75%;
     height: 1500px;
+}
+
+.main-slider {
+    position: relative;
+    background-image: url(/images/images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 390px;
+}
+
+.slider-caption {
+    position:absolute;
+    display: block;
+    margin-left: 120px;
+    bottom: 42.5%;
+}
+
+.caption-img-top {
+    display: block;
+    width: 340px;
+    margin-bottom: 5px;
+}
+
+.caption-img-bottom {
+    display: block;
+    width: 340px;
 }
