@@ -1,8 +1,6 @@
 ﻿* {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.4;
 }
 
 button {
@@ -49,9 +47,26 @@ header {
 
 .menu-item {
     margin-right: 40px;
-    font-size: 14px;
+    opacity: 50%;
 }
 
+.item-link {
+    text-decoration: none;
+    letter-spacing: 0.0125em;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3B4144;
+}
+
+.item-link-active {
+    text-decoration: none;
+    letter-spacing: 0.0125em;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3B4144;
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
+}
 
 
 .btn-logo {
@@ -64,7 +79,7 @@ header {
 }
 
 .logo-image {
-    width: 120px;
+    width: 135px;
 }
 
 
