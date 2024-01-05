@@ -186,6 +186,28 @@ header {
         display: none;
     }
 
+    .header-logo {
+        display: none;
+    }
+
+    .header-logo-small {
+        margin-top: 28px;
+        margin-right: auto;
+    }
+
+    .header-menu-small {
+        margin-top: 25px;
+        margin-left: 44px;
+    }
+
+    .logo-image-small {
+        height: 18px;
+    }
+
+    .menu-icon-image-small {
+        height: 24px;
+    }
+
     .main {
         width: 90%;
     }
@@ -193,7 +215,7 @@ header {
     .main-slider {
         height: 257px;
     }
-    
+
     .slider-caption {
         display: none;
     }
@@ -201,10 +223,18 @@ header {
     .main-container {
         margin: 0;
     }
+}
 
 @media (min-width: 1025px) {
-    .btn-notif {
+    .header-menu-small {
         display: none;
     }
 
+    .header-logo-small {
+        display: none;
+    }
+
+    .btn-notif {
+        display: none;
+    }
 }
