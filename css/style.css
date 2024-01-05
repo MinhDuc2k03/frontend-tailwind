@@ -179,8 +179,7 @@ header {
     margin: 36px 0px 40px 0px;
     display: flex;
     flex-wrap: nowrap;
-    overflow: scroll;
-    overflow-y: hidden;
+    overflow: hidden;
     scrollbar-width: none;
     gap: 15px;
 }
@@ -226,6 +225,22 @@ header {
 .option-link.active {
     background-color: #198754;
     color: #fff;
+}
+
+.container-post {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.container-big {
+    width: 60%;
+    background-color: brown;
+}
+
+.container-small {
+    width: 36%;
+    background-color: slategray;
 }
 
 
