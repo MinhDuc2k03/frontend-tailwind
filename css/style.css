@@ -240,9 +240,22 @@ header {
     margin-bottom: 20px;
 }
 
-.post-img {
+.button-like {
+    position: absolute;
+}
+
+.like-image {
+    height: 24px;
+}
+
+.post-image {
     width: 100%;
 }
+
+.post-image-like {
+    position: absolute;
+}
+
 .container-small {
     width: 36%;
     background-color: slategray;
