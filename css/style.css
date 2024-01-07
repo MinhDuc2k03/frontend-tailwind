@@ -242,6 +242,8 @@ header {
 
 .button-like {
     position: absolute;
+    top: 25px;
+    right: 25px;
 }
 
 .like-image {
