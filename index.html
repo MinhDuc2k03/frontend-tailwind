@@ -24,10 +24,18 @@
             </div>
         </div>
         <div class="text-sm hidden lg:flex mt-6">
-            <a href="#" class="mr-10 ml-10 opacity-50">Mua nhà</a>
-            <a href="#" class="mr-10 opacity-50">Thuê nhà</a>
-            <a href="#" class="mr-10 opacity-50">Khám phá</a>
-            <a href="#" class="mr-10">Blog</a>
+            <div class="mr-10 ml-10">
+                <a href="#" class="opacity-50 transition duration-150 hover:opacity-100">Mua nhà</a>
+            </div>
+            <div class="mr-10">
+                <a href="#" class="opacity-50 transition duration-150 hover:opacity-100">Thuê nhà</a>
+            </div>
+            <div class="mr-10">
+                <a href="#" class="opacity-50 transition duration-150 hover:opacity-100">Khám phá</a>
+            </div>
+            <div class="mr-10">
+                <a href="#" class="pb-1 border-b-2 border-red-600">Blog</a>
+            </div>
         </div>
         <a href="#" class="mt-6 hidden lg:block">
             <img src="./images/icons/logo.png" class="w-32">
@@ -44,7 +52,7 @@
                 </button>
             </div>
             <div class="hidden lg:block ml-6">
-                <button class="text-sm text-white bg-red-600 w-32 h-8 rounded-full">Đăng bài</button>
+                <button class="text-sm text-white bg-red-600 transition duration-150 hover:bg-red-900 w-32 h-8 rounded-full">Đăng bài</button>
             </div>
            <div class="ml-6">
             <button class="flex">
@@ -66,12 +74,12 @@
             </div>
         </div>
         <div class="m-auto w-auto lg:w-2/3">
-            <div class="flex gap-6 mt-9 mb-7 overflow-scroll overflow-y-hidden">
+            <div class="flex gap-6 mt-9 mb-9 overflow-scroll overflow-y-hidden">
                 <a href="./index.html" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full bg-green-700 text-gray-100">Tất cả</a>
-                <a href="./xahoi.html" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full">Xã hội</a>
-                <a href="#" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full">Nhà đất</a>
-                <a href="#" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full">Đời sống</a>
-                <a href="./video.html" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full">Video</a>
+                <a href="./xahoi.html" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full transition duration-150 hover:bg-green-700 hover:text-gray-100">Xã hội</a>
+                <a href="#" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full transition duration-150 hover:bg-green-700 hover:text-gray-100">Nhà đất</a>
+                <a href="#" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full transition duration-150 hover:bg-green-700 hover:text-gray-100">Đời sống</a>
+                <a href="./video.html" class="px-9 py-1.5 text-lg whitespace-nowrap leading-7 rounded-full transition duration-150 hover:bg-green-700 hover:text-gray-100">Video</a>
             </div>
             <div class="flex justify-center mb-8">
                 <img src="./images/icons/news.png" class="h-10 mr-4">
@@ -80,10 +88,10 @@
             <div class="justify-between gap-8 block lg:flex mb-10">
                 <div>
                     <div class="relative mb-4">
-                        <a href="">
+                        <a href="./news.html">
                             <img src="./images/images/news1.png">
                         </a>
-                        <button class="z-50 absolute top-5 right-5">
+                        <button class="z-10 absolute top-5 right-5">
                             <img src="./images/icons/heart_unselected.png" class="h-6">
                         </button>
                     </div>
@@ -107,7 +115,7 @@
                             <a href="">
                                 <img src="./images/images/news2.png">
                             </a>
-                            <button class="z-50 absolute top-5 right-5">
+                            <button class="z-10 absolute top-5 right-5">
                                 <img src="./images/icons/heart_unselected.png" class="h-6">
                             </button>
                         </div>
@@ -130,7 +138,7 @@
                             <a href="">
                                 <img src="./images/images/news3.png">
                             </a>
-                            <button class="z-50 absolute top-5 right-5">
+                            <button class="z-10 absolute top-5 right-5">
                                 <img src="./images/icons/heart_unselected.png" class="h-6">
                             </button>
                         </div>
@@ -164,10 +172,10 @@
                         </div>
                         <div class="absolute bottom-0 ml-6">
                             <div class="text-white mb-1">Đi dạo cạnh đường cao tốc Pháp Vân Cầu Giẽ ổn không?</div>
-                            <div class="flex text-sm mb-5 overflow-hidden whitespace-nowrap">
-                                <div class="text-white">5542 lượt xem</div>
+                            <div class="flex text-sm mb-5 overflow-hidden whitespace-nowrap text-white">
+                                <div>5542 lượt xem</div>
                                 <div class="select-none">&nbsp•&nbsp</div>
-                                <div class="text-white opacity-50">24/02/2020</div>
+                                <div class="opacity-50">24/02/2020</div>
                             </div>
                         </div>
                     </a>
@@ -353,7 +361,7 @@
                             <div class="flex gap-4 mb-4 h-24 sm:h-56">
                                 <div class="relative max-w-full">
                                     <img src="./images/images/list1.png" class="h-full">
-                                    <button class="z-50 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
+                                    <button class="z-10 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
                                         <img src="./images/icons/heart_unselected.png" class="h-6">
                                     </button>
                                 </div>
@@ -382,7 +390,7 @@
                             <div class="flex gap-4 mb-4 h-24 sm:h-56">
                                 <div class="relative max-w-full">
                                     <img src="./images/images/list2.png" class="h-full">
-                                    <button class="z-50 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
+                                    <button class="z-10 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
                                         <img src="./images/icons/heart_unselected.png" class="h-6">
                                     </button>
                                 </div>
@@ -411,7 +419,7 @@
                             <div class="flex gap-4 mb-4 h-24 sm:h-56">
                                 <div class="relative max-w-full">
                                     <img src="./images/images/list3.png" class="h-full">
-                                    <button class="z-50 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
+                                    <button class="z-10 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
                                         <img src="./images/icons/heart_unselected.png" class="h-6">
                                     </button>
                                 </div>
@@ -440,7 +448,7 @@
                             <div class="flex gap-4 mb-4 h-24 sm:h-56">
                                 <div class="relative max-w-full">
                                     <img src="./images/images/list4.png" class="h-full">
-                                    <button class="z-50 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
+                                    <button class="z-10 absolute bottom-4 left-4 sm:top-5 sm:right-5 sm:bottom-auto sm:left-auto">
                                         <img src="./images/icons/heart_unselected.png" class="h-6">
                                     </button>
                                 </div>
