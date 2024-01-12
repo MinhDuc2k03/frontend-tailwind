@@ -12,8 +12,8 @@
 
 ## Responsive trên màn hình:
 - 1920px
-- 1027px
-- 768px
+- 1023px
+- 767px
 - 375px
 
 ## Cài đặt
