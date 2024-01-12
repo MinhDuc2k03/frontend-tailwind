@@ -8,7 +8,7 @@
 - Github page: https://github.com/MinhDuc2k03/frontend-tailwind
 
 ## Snapshots
-- Link to snapshots/snapshots.md
+- Link: https://github.com/MinhDuc2k03/frontend-tailwind/blob/fc3964cf27a10d17df9c143905e6ccfe28cce553/snapshots/snapshot.md
 
 ## Responsive trên màn hình:
 - 1920px
@@ -17,7 +17,7 @@
 - 375px
 
 ## Cài đặt
-- Link: https://minhduc2k03.github.io/frontend-tailwind/index.html
+- Link xem trên GitHub: https://minhduc2k03.github.io/frontend-tailwind/index.html
 
 ## Được viết bằng
 
